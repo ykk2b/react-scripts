@@ -6,10 +6,12 @@ This repository contains collections of scripts used for initializing new React 
 
 ### Initialize
 
-- `./parce.sh <project_name>` - Initializes a new React project with Parcel bundler.
+- `./parcel.sh <project_name>` - Initializes a new React project with Parcel bundler.
 
 todo: webpack, esbuild, swc, vite
 
 ### Add
 
-todo: tailwindcss, jotai, react-query, react-router, react-markdown
+- tailwind: `./mods/tw.sh <entry_css_file>`
+
+todo: jotai, react-query, react-router, react-markdown, swr
