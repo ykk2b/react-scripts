@@ -36,7 +36,6 @@ package_json='{
   "name": "'$NAME'",
   "version": "1.0.0",
   "description": "",
-  "main": "index.tsx",
   "scripts": {
     "start": "parcel serve index.html",
     "build": "parcel build index.html"
@@ -155,4 +154,11 @@ export default function Home() {
 
 mkdir src/pages
 echo "$home_tsx" > src/pages/index.tsx
+
+git_ignore='
+.parcel-cache
+node_modules'
+
+echo "$git_ignore" > .gitignore
+
 echo "project initialized."
